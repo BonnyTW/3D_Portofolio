@@ -45,7 +45,7 @@ export default function App() {
       >
         <ambientLight intensity={1.2} />
         <directionalLight position={[-1, 2, -1]} intensity={2.3} />
-        <color attach="background" args={["#cc3dff"]} />
+        <color attach="background" args={["#000000"]} />
         <FloatingSphere position={[0, -3, 0]} scale={1} />
         <OrbitControls
           enableZoom={false}
